@@ -1,0 +1,16 @@
+site_name: IPM-Docs
+site_url: https://example.com/
+
+theme:
+  name: material
+  favicon: images/favicon.png
+  logo: images/ipm_logo_red.jpeg
+  palette:
+    primary: red
+
+nav:
+    - Home: 'index.md'
+    - 'IPM Jago':
+        - 'Jago Overview': 'ipm-jago/jago-overview.md'
+    - 'IPM Learning':
+        - 'Learning Overview': 'ipm-learning/learning-overview.md'
